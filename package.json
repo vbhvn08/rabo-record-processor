@@ -1,0 +1,16 @@
+{
+  "name": "raborecordvalidator",
+  "version": "1.0.0",
+  "description": "Validate records",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}

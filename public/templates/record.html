@@ -1,0 +1,19 @@
+<div class="col-sm-8">
+    <h3>Failed Records</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Transaction reference</th>
+                <th scope="col">Description</th>
+                <th scope="col">Failure Reason</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="record in records" ng-if="record.status == 'failed'">
+                <td>{{record.reference}}</td>
+                <td>{{record.description}}</td>
+                <td>{{record.reason}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
